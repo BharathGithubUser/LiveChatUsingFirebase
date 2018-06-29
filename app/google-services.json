@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "461212638022",
+    "firebase_url": "https://fir-chat-20a3d.firebaseio.com",
+    "project_id": "fir-chat-20a3d",
+    "storage_bucket": "fir-chat-20a3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461212638022:android:f3cf576ad21c68a0",
+        "android_client_info": {
+          "package_name": "com.pulse.firebasechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461212638022-nlb8ajsbp8d7kpun6in288705jhetigt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW_9bh5ermKqq21nD4duBgTQzuLvkVL00"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
