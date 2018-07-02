@@ -1,4 +1,4 @@
-package com.ashokslsk.awesomefirebase;
+package com.pulse.firebasechat;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.ashokslsk.awesomefirebase;
+package com.pulse.firebasechat;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

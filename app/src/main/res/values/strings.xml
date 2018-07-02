@@ -12,5 +12,11 @@
     <string name="log_out">Log Out</string>
     <string name="title_activity_chat">ChatActivity</string>
     <string name="send">Send</string>
+    <string name="enter_username">Enter UserName</string>
+    <string name="single_chat">Single Chat</string>
+    <string name="group_chat">Group Chat</string>
+    <string name="receive_push_notification">Receive Push Notification</string>
+    <string name="login">Login</string>
+    <string name="refere_spalsh_activity_class_for_the_image_loading">Refere Spalsh Activity Class for the Image Loading</string>
 
 </resources>

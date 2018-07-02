@@ -6,7 +6,7 @@ material designed one to one chat implementations
 
 A simple chat application that built with Firebase on Android.
 
-![Screenshot](https://github.com/ashokslsk/Firebase/blob/master/screens/screen1.png)
+![Screenshot](https://github.com/pulse/Firebase/blob/master/screens/screen1.png)
 
 ## Setup
 
