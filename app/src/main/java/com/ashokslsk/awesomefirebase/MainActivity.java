@@ -30,14 +30,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ListView mListView;
     private Date mLastMessageDate = new Date();
     private MessageDataSource.MessagesListener mListener;
+    private String chatType;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mRecipient = "Pulse Support";
-        mSender = "Bharath";
+        mRecipient = "recipient";
+        mSender = "sender";
 
         mListView = (ListView)findViewById(R.id.messages_list);
         mMessages = new ArrayList<>();
@@ -51,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button sendMessage = (Button)findViewById(R.id.send_message);
         sendMessage.setOnClickListener(this);
-        String chatType = "Support Chat";
+        chatType = "Support Chat";
         mListener = MessageDataSource.addMessagesListener(chatType, this);
 
     }
@@ -65,13 +66,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         msg.setText(newMessage);
         msg.setSender(mSender);
 
-        MessageDataSource.saveMessage(msg, mSender);
+        MessageDataSource.saveMessage(msg, chatType);
     }
 
     @Override
     public void onMessageAdded(Message message) {
         mMessages.add(message);
-        mAdapter.notifyDataSetChanged();
+        runOnUiThread(new Runnable() {
+            public void run() {
+                mAdapter.notifyDataSetChanged();
+                scrollMyListViewToBottom();
+            }
+        });
     }
 
     @Override
@@ -79,7 +85,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onDestroy();
         MessageDataSource.stop(mListener);
     }
-
+    private void scrollMyListViewToBottom() {
+        mListView.post(new Runnable() {
+            @Override
+            public void run() {
+                // Select the last row so it will scroll into view...
+                mListView.setSelection(mAdapter.getCount() - 1);
+            }
+        });
+    }
 
     private class MessagesAdapter extends ArrayAdapter<Message> {
         MessagesAdapter(ArrayList<Message> messages){

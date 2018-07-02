@@ -20,7 +20,7 @@ public class MessageDataSource {
     private static final String TAG = "MessageDataSource";
     private static final String COLUMN_TEXT = "text";
     private static final String COLUMN_SENDER = "sender";
-    private static final String mSender = "Bharath";
+    private static final String mSender = "sender";
     public static void saveMessage(Message message, String convoId){
         Date date = message.getDate();
         String key = sDateFormat.format(date);

@@ -1,8 +1,7 @@
 
-ssquid:S1450"XRemove the "mListView" field and declare it as a local variable in the relevant methods.(‡¾÷\8Ä€·ÚÄ,
-Isquid:S1068".Remove this unused "mRecipient" private field.(ğü¯X8Ä€·ÚÄ,
-Usquid:S1068"4Remove this unused "mLastMessageDate" private field.(óÔ«Óúÿÿÿÿ8Ä€·ÚÄ,
-tsquid:S1450"YRemove the "mRecipient" field and declare it as a local variable in the relevant methods.(ğü¯X8Ä€·ÚÄ,
-@squid:S1659"%Declare "mSender" on a separate line.(ğü¯X8Ä€·ÚÄ,
-osquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(ìÈØüÿÿÿÿ8Ä€·ÚÄ,
-[squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Ä€·ÚÄ,
+tsquid:S1450"YRemove the "mRecipient" field and declare it as a local variable in the relevant methods.(ğü¯X8àâ½ßÄ,
+ssquid:S1450"XRemove the "mListView" field and declare it as a local variable in the relevant methods.(‡¾÷\8àâ½ßÄ,
+@squid:S1659"%Declare "mSender" on a separate line.(ğü¯X8àâ½ßÄ,
+[squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8àâ½ßÄ,
+Usquid:S1068"4Remove this unused "mLastMessageDate" private field.(óÔ«Óúÿÿÿÿ8àâ½ßÄ,
+osquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(ìÈØüÿÿÿÿ8àâ½ßÄ,

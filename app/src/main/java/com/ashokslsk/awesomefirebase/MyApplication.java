@@ -4,12 +4,9 @@ import android.app.Application;
 
 import com.firebase.client.Firebase;
 
-/**
- * Created by Ashu on 24/11/15.
- */
-public class AwesomeFireBase extends Application {
+public class MyApplication extends Application {
 
-    private static final String TAG = "AwesomeFireBase";
+    private static final String TAG = "MyApplication";
 
 
     @Override

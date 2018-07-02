@@ -23,3 +23,5 @@ q
 Aapp/src/main/java/com/ashokslsk/awesomefirebase/MainActivity.java,f/4/f4ca27572034906621a803317eb523bd12c48cc4
 t
 Dapp/src/main/java/com/ashokslsk/awesomefirebase/AwesomeFireBase.java,e/4/e47ca1e2ddd193d4e6618f697c7baaaaa457506f
+>
+app/.gitignore,5/1/51e1c5d383dfaa35e0e7e5873a0a99355a86880f
