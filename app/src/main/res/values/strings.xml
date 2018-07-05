@@ -18,5 +18,6 @@
     <string name="receive_push_notification">Receive Push Notification</string>
     <string name="login">Login</string>
     <string name="refere_spalsh_activity_class_for_the_image_loading">Refere Spalsh Activity Class for the Image Loading</string>
+    <string name="title_activity_background_image">BackgroundImage</string>
 
 </resources>

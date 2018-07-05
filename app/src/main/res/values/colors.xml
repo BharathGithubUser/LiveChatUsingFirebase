@@ -8,5 +8,5 @@
     <color name="green">#ACDC37</color>
     <color name="green_pressed">#89b02c</color>
     <color name="red">#fa4242</color>
-    <color name="red_pressed">#c83434</color>
+    <color name="red_pressed">#c83434</color><color name="app_background_theme_color">#2D2C52</color>
 </resources>
