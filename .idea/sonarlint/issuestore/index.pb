@@ -47,3 +47,7 @@ m
 =app/src/main/java/com/pulse/firebasechat/BackgroundImage.java,4/0/40f87141549a6303143aa7b85eeb7bdbb059e0ef
 R
 "app/src/main/res/values/colors.xml,9/6/969faa2a5d9f5e8390e958d2c07f2cfd54676e6b
+d
+4app/src/main/res/layout/content_background_image.xml,e/a/eaf11e14a781edd9690838bb3b3e0a86b99e701f
+R
+"app/src/main/res/values/dimens.xml,c/3/c3c1811dec2dbad2deeafb9aad505ca9631da740
